@@ -1,47 +1,7 @@
-body { 
-    font-family: sans-serif; margin: 0;
-     background-color: #f4f4f4; color: #333; 
-    } 
-header { 
-    background-color: #333; 
-    color: white; 
-    padding: 1em 0; 
-    text-align: center;
-    } 
-main {
-     padding: 20px;
-    } 
-.contenedor-productos {
-     display: flex;
-       gap: 20px;
-     justify-content: center; 
-    }
-.producto { 
-    background-color: rgba(255, 255, 255, 0.384); 
-    justify-content: center; 
-    border: 1px solid rgba(255, 255, 255, 0.384); 
-    border-radius: 8px; 
-    padding: 15px; 
-    width: 300px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.37);
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
-    } 
-.producto img { 
-    max-width: 320px ;
-    }
-button{
-    color: white;
-    background-color: green;
+.img{
+    height: 100px;
+    width: 1000px;
 }
-h3{
-    color: white;
-    background-color: #333;
-}
-.flex{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+body{
+    background-color: darkslategrey;
 }
